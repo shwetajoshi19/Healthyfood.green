@@ -1,0 +1,445 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../Font/roboto-v30-latin-regular.ttf') format('woff2'), /* Super Modern Browsers */
+
+
+  }
+:root {
+    --main-color:#f0c50d;
+    --white-color:#fff
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+    
+    body {
+    box-sizing:border-box;
+    overflow-x:hidden;
+    font-family:'Roboto',sans-serif;
+
+    overflow-x: hidden;
+    }
+    
+.cursor {
+    width: 15px;
+    height: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    Pointer-events: none;
+    z-index: 9999999999;
+    opacity: .8;
+  }
+    
+    .section-paddinglb {
+    padding:80px 0
+    }
+    
+    .bg-fruit {
+    background-image:url(../image/herobanner.jpg);
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    background-color:#ffffff00;
+    padding:50px 10px 100px;
+    display:flex;
+    align-items:center
+    }
+    
+    .box-heading h1 {
+    color:var(--main-color);
+    font-size:60px;
+    font-weight:700
+    }
+    
+    .box-para {
+    font-size:18px
+    }
+    
+    .border-bg {
+    padding:108px 50px 103px;
+    background:#ffffffa8    ;
+    width:37%
+    }
+    
+    .bg-button {
+    background:var(--main-color);
+    color:#000;
+    border-radius:0;
+    font-weight:600;
+    font-size:13px;
+    padding:10px 40px;
+    letter-spacing:2px
+    }
+    
+    .healthy-food-content {
+    background-color:#141313;
+    color:var(--white-color)
+    }
+    
+    .color-range {
+    color:var(--main-color);
+    font-weight:700;
+    font-size:65px
+    }
+    
+    .para-color {
+    color:silver
+    }
+    
+    h1.fonts-food span {
+    font-size:45px
+    }
+    
+    p.para-heading {
+    font-size:20px
+    }
+    
+    .bg-salad {
+    background:url(../image/vegetarian-sandwich-with-salad.jpg);
+    padding:150px 10px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center
+    }
+    
+    .para-block-left p {
+    font-size:17px;
+    padding-top:16px
+    }
+    
+    .pt-20 {
+    padding-top:10%
+    }
+    
+    .bg-button-salad {
+    width:12%
+    }
+    
+    .salad-heading h1 {
+    font-weight:700;
+    font-size:50px
+    }
+    
+    .para-heading {
+    font-size:22px
+    }
+    
+    .text-font {
+    font-size:50px;
+    font-weight: 600;
+    }
+    
+    .w-80 {
+    width:80%
+    }
+    
+    .section-paddinglb-block-4 {
+    padding:0 0 70px
+    }
+    
+    .block-5 {
+    background:url(../image/top-view-fresh-vegetable.jpg);
+    background-size:cover;
+    width:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:385px 10px 54px
+    }
+    
+    h1.block5-heading {
+    color:var(--main-color);
+    font-weight:700;
+    font-size:50px
+    }
+    
+    .block-6-text {
+    align-items:center;
+    padding:74px 10px 48px 25px
+    }
+    
+    .contact-us.block-6-text {
+    margin-left:17%
+    }
+    
+    .block-6-bg {
+    background-color:var(--main-color);
+    display:flex;
+    align-items:center
+    }
+    
+    .block-3 {
+    display:flex;
+    flex-direction:column;
+    align-items:center
+    }
+    
+    .w-30 {
+    width:calc(100% / 3)
+    }
+    
+    .block-6-text h1 {
+    font-weight:600
+    }
+    
+    .min-widimg {
+    min-width:509px
+    }
+    
+    .p-10 {
+    padding:10%
+    }
+    
+    .pl-16 {
+    padding-left:16rem
+    }
+    
+    h1.text-white.pt-5 {
+    font-weight:700
+    }
+    
+    .bg-add {
+    background-color:#000
+    }
+    
+    .bg-contact {
+    background-color:#2bccc3
+    }
+    .right-img
+    {
+        width: 80%;
+    }
+    .hfg-bg-grad
+    {
+        background-image: linear-gradient(90deg, #2bccc3 30%, #f0c50d 30%);
+    }
+    .hfg-bg-grad-mb
+    {
+       background-image: linear-gradient(to top, #2bccc3 60%, #f0c50d 60%);
+    }
+
+   
+    @media (max-width:1200px)
+    {
+        .border-bg
+        {
+            padding: 140px 50px 87px;
+            width: 53%;
+        }
+        .bg-fruit
+        {
+            padding: 40px 10px 100px;
+        }
+    }
+    
+    @media (max-width:992px) {
+        .border-bg {
+        width:60%;
+        padding: 81px 20px 50px;
+    
+        }
+        
+        .contact-us.block-6-text {
+        margin-left:0
+        }
+        .bg-fruit
+        {
+            padding: 60px 10px 100px;
+        }
+        .box-heading h1
+        {
+            font-size: 50px;
+        }
+        .box-para {
+            font-size: 17px;
+        }
+        .block-5
+        {
+            padding: 200px 10px 54px
+        }
+        h1.block5-heading
+        {
+            font-size: 45px;
+        }.block-6-text
+        {
+            padding: 50px 0px 50px 19px
+        }
+        h1.fonts-food span
+        {
+            font-size: 40px;
+        }
+        .color-range
+        {
+            font-size: 55px;
+        }
+        .text-font
+        {
+            font-size: 45px;
+        }
+        }
+          
+        @media (max-width:768px)
+        {
+            .border-bg {
+                width: 70%;
+                padding: 100px 20px 50px;
+            
+                }
+                .box-heading h1
+                {
+                    font-size: 40px;
+                }
+                .box-para {
+                    font-size: 16px;
+                }
+            .bg-salad
+            {
+                padding: 95px 10px;
+            }
+            .salad-heading h1 {
+                font-size: 45px;
+            }
+            .bg-fruit
+            {
+                padding: 60px 10px 100px;
+            }
+            h1.fonts-food span{
+                font-size: 35px;
+            }
+            .color-range
+            {
+                font-size: 45px;
+            }
+            .section-paddinglb
+            {
+                padding: 50px 0;
+            }
+            .block-5
+            {
+                padding: 160px 10px 50px
+            }
+            .block-6-text
+            {
+                padding: 40px 10px 40px 25px;
+            }
+            .text-font
+            {
+                font-size: 40px;
+            }
+            h1.block5-heading
+            {
+                font-size: 40px;
+            }
+        }
+        
+
+    /*media query 437 */
+
+    @media(max-width: 575px) {
+    .box-heading h1 {
+    font-size:36px
+    }
+    
+    .box-para {
+    font-size:14px
+    }
+    
+    .bg-fruit {
+    padding:60px 0
+    }
+    
+
+    
+    .salad-heading h1 {
+    font-size:35px
+    }
+    
+    h1.block5-heading {
+    font-size: 35px;
+    text-align: center;
+    }
+    
+    .bg-button {
+    padding:9px 30px
+    }
+    
+    h1.fonts-food span {
+    font-size:calc(1.375rem + 1.5vw)
+    }
+    
+    .color-range {
+    font-size:40px
+    }
+    
+    .text-font {
+    font-size:30px
+    }
+    
+    .contact-us.block-6-text {
+    width:100%;
+    margin-left:0
+    }
+    .section-paddinglb
+    {
+        padding: 45px 0;
+    }
+    .bg-salad
+    {
+        padding: 32px 10px;
+    }
+    .para-heading
+    {
+        font-size: 18px;
+    }
+    .para-block-left p
+    {
+        padding-top: 0;
+    }
+    .pt-20{
+        padding-top: 5%;
+    }
+    .block3-heading-right
+    {
+       
+        align-self: center;
+    }
+    .right-img
+    {
+        align-self: center;
+    }
+    .block-5
+    {
+        padding: 100px 10px 54px;
+    }
+    .hfg-bg-grad
+    {
+        background-image: linear-gradient(132deg, #2bccc3 30%, #f0c50d 30%);
+    }
+    .hfg-bg-grad-mb
+    {
+        background: #f0c50d;
+    } 
+    .block-6-text {
+        padding: 43px 10px 43px 10px;
+    }   
+    .border-bg {
+        width:100%;
+        padding:49px 25px 49px
+        }
+    }
+
+    /*end*/
+  
+ 
+    
+  
